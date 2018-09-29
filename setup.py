@@ -8,7 +8,7 @@ from setuptools import setup
 
 setup(
     name = "fastai",
-    packages = ['fastai', 'fastai/models', 'fastai/models/cifar10'],
+    packages = ['fastai', 'fastai/models', 'fastai/models/cifar10', 'fastai/torchqrnn'],
     version = '0.7.0',
     description = "The fastai deep learning and machine learning library.",
     author = "Jeremy Howard and contributors",
